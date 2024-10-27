@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
  
 # Load the pre-trained SVD model, movie ratings, and movies data
-with open('recommendation_movie_svd.pkl', 'rb') as file:
+with open('66130700318_recommendation_movie_svd.pkl', 'rb') as file:
     svd_model, movie_ratings, movies = pickle.load(file)
  
 # Streamlit app title and description
